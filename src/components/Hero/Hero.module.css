@@ -1,0 +1,103 @@
+.hero {
+  height: 100vh;
+  background-image: url('/assets/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  margin: 0;
+  animation: fadeInUp 1s ease-out;
+}
+
+.subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  margin: 20px 0 40px;
+  animation: fadeInUp 1s ease-out 0.2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.cta {
+  display: flex;
+  gap: 20px;
+  animation: fadeInUp 1s ease-out 0.4s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.primary {
+  background: var(--color-gold);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.primary:hover {
+  background: var(--color-dark-gold);
+}
+
+.secondary {
+  background: transparent;
+  color: var(--color-cream);
+  border: 2px solid var(--color-cream);
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.secondary:hover {
+  background: var(--color-cream);
+  color: var(--color-black);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 48px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .cta {
+    flex-direction: column;
+    width: 80%;
+    max-width: 300px;
+  }
+}
