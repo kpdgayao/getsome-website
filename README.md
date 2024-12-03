@@ -25,12 +25,12 @@ getsome-website/
 
 ## Development
 
-This project uses React with modern development practices. Follow the setup instructions below to get started.
+This project uses React with modern development practices.
 
 ### Setup
 1. Clone the repository
-2. Install dependencies
-3. Run development server
+2. Install dependencies: `npm install`
+3. Run development server: `npm run dev`
 
 ### Branch Strategy
 - main: Production branch

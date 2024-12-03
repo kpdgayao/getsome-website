@@ -1,0 +1,47 @@
+/* Global styles */
+:root {
+  --color-coffee: #4A3828;
+  --color-cream: #F5E6D3;
+  --color-gold: #D4AF37;
+  --color-black: #2C2C2C;
+  --color-light-brown: #8B7355;
+  --color-soft-cream: #FFF8DC;
+  --color-dark-gold: #B69121;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--color-black);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+}
+
+/* Utilities */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
