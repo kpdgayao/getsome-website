@@ -2,6 +2,14 @@
 
 Official website for Getsome Coffee Franchise - Premium coffee experience and franchise opportunities.
 
+## Tech Stack
+
+- Next.js - React framework
+- TypeScript - Type safety
+- Tailwind CSS - Styling
+- ESLint - Code quality
+- PostCSS - CSS processing
+
 ## Project Structure
 
 ```
@@ -36,6 +44,11 @@ This project uses React with modern development practices.
 - main: Production branch
 - develop: Development branch
 - feature/*: Feature branches
+
+### Deployment
+1. Build the project: `npm run build`
+2. Preview build: `npm run start`
+3. Deploy to production using your preferred hosting platform
 
 ## Contributing
 Please read our contributing guidelines before submitting pull requests.
