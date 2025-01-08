@@ -1,1 +1,54 @@
-IyBHZXRzb21lIENvZmZlZSBXZWJzaXRlCgpPZmZpY2lhbCB3ZWJzaXRlIGZvciBHZXRzb21lIENvZmZlZSBGcmFuY2hpc2UgLSBQcmVtaXVtIGNvZmZlZSBleHBlcmllbmNlIGFuZCBmcmFuY2hpc2Ugb3Bwb3J0dW5pdGllcy4KCiMjIFRlY2ggU3RhY2sKCi0gTmV4dC5qcyAtIFJlYWN0IGZyYW1ld29yawotIFR5cGVTY3JpcHQgLSBUeXBlIHNhZmV0eQotIFRhaWx3aW5kIENTUyAtIFN0eWxpbmcKLSBFU0xpbnQgLSBDb2RlIHF1YWxpdHkKLSBQb3N0Q1NTIC0gQ1NTIHByb2Nlc3NpbmcKCiMjIFByb2plY3QgU3RydWN0dXJlCgpgYGAKZ2V0c29tZS13ZWJzaXRlLwrilIAgc3JjLwrilIAg4pSAIGNvbXBvbmVudHMvCuKUgCDilIAg4pSAIEhlcm8vCuKUgCDilIAg4pSAIEZlYXR1cmVzLwrilIAg4pSAIOKUgCBBYm91dC8K4pSAIOKUgCDilIAgRnJhbmNoaXNlUHJldmlldy8K4pSAIOKUgCDilIAgTmV3cy8K4pSAIOKUgCDilIAgQ29udGFjdC8K4pSAIOKUgCDilIDilKsgRm9vdGVyLwrilIAg4pSAIHN0eWxlcy8K4pSAIOKUgCBhc3NldHMvCuKUgCDilIAgdXRpbHMvCuKUgCDilIDilKsgcGFnZXMvCuKUgCBwdWJsaWMvCuKUr8KgZG9jcy8KYGBgCgojIyBEZXZlbG9wbWVudAoKVGhpcyBwcm9qZWN0IHVzZXMgUmVhY3Qgd2l0aCBtb2Rlcm4gZGV2ZWxvcG1lbnQgcHJhY3RpY2VzLgoKIyMjIFNldHVwCjEuIENsb25lIHRoZSByZXBvc2l0b3J5CjIuIEluc3RhbGwgZGVwZW5kZW5jaWVzOiBgbnBtIGluc3RhbGxgCjMuIFJ1biBkZXZlbG9wbWVudCBzZXJ2ZXI6IGBucG0gcnVuIGRldmAKCiMjIyBCcmFuY2ggU3RyYXRlZ3kKLSBtYWluOiBQcm9kdWN0aW9uIGJyYW5jaAotIGRldmVsb3A6IERldmVsb3BtZW50IGJyYW5jaAotIGZlYXR1cmUvKjogRmVhdHVyZSBicmFuY2hlcwoKIyMjIERlcGxveW1lbnQKMS4gQnVpbGQgdGhlIHByb2plY3Q6IGBucG0gcnVuIGJ1aWxkYAoyLiBQcmV2aWV3IGJ1aWxkOiBgbnBtIHJ1biBzdGFydGAKMy4gRGVwbG95IHRvIHByb2R1Y3Rpb24gdXNpbmcgeW91ciBwcmVmZXJyZWQgaG9zdGluZyBwbGF0Zm9ybQoKIyMgQ29udHJpYnV0aW5nClBsZWFzZSByZWFkIG91ciBjb250cmlidXRpbmcgZ3VpZGVsaW5lcyBiZWZvcmUgc3VibWl0dGluZyBwdWxsIHJlcXVlc3RzLg==
+# Getsome Coffee Website
+
+Official website for Getsome Coffee Franchise - Premium coffee experience and franchise opportunities.
+
+## Tech Stack
+
+- Next.js - React framework
+- TypeScript - Type safety
+- Tailwind CSS - Styling
+- ESLint - Code quality
+- PostCSS - CSS processing
+
+## Project Structure
+
+```
+getsome-website/
+├── src/
+│   ├── components/
+│   │   ├── Hero/
+│   │   ├── Features/
+│   │   ├── About/
+│   │   ├── FranchisePreview/
+│   │   ├── News/
+│   │   ├── Contact/
+│   │   └── Footer/
+│   ├── styles/
+│   ├── assets/
+│   ├── utils/
+│   └── pages/
+├── public/
+└── docs/
+```
+
+## Development
+
+This project uses React with modern development practices.
+
+### Setup
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run development server: `npm run dev`
+
+### Branch Strategy
+- `main`: Production branch
+- `develop`: Development branch
+- `feature/*`: Feature branches
+
+### Deployment
+1. Build the project: `npm run build`
+2. Preview build: `npm run start`
+3. Deploy to production using your preferred hosting platform
+
+## Contributing
+Please read our contributing guidelines before submitting pull requests.
